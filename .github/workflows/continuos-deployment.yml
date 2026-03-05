@@ -25,3 +25,4 @@ jobs:
     - name: Build Eureka Naming Server Docker Image
       working-directory: ./curso-microservicos/naming-server
       run: mvn spring-boot:build-image -DskipTests
+      
